@@ -1,0 +1,5 @@
+# config.py.example
+# 請填入你的 Telegram API 資訊
+API_ID = 123456
+API_HASH = 'your_api_hash_here'
+BOT_TOKEN = 'your_bot_token_here'

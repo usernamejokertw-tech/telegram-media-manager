@@ -1,0 +1,6 @@
+{
+    "程式教學": {
+        "Python": ["group_id:topic_id"],
+        "AI": ["group_id:topic_id // 備註"]
+    }
+}
