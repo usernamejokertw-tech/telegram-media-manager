@@ -203,5 +203,13 @@ cython_debug/
 
 # Marimo
 marimo/_static/
+
+# My Private Configs
+config.py
+*.session
+*.session-journal
+media_index.json
+scan_status.json
+favorites.json
 marimo/_lsp/
 __marimo__/
