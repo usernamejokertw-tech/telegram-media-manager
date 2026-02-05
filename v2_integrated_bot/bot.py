@@ -430,6 +430,7 @@ async def show_minor_menu(event, user_id, major):
     await event.edit(f"📂 **{major}**", buttons=rows)
 
 async def execute_random_play(user_id, count=5):
+    global bot_info
     state = get_state(user_id)
     if state['last_bot_msg_ids']:
         try:
@@ -532,4 +533,5 @@ async def main():
     await asyncio.gather(user_client.run_until_disconnected(), bot_client.run_until_disconnected())
 
 if __name__ == '__main__':
+
     asyncio.run(main())
